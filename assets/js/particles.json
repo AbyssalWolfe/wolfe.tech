@@ -1,0 +1,42 @@
+{
+	"background": {
+		"color": "#000"
+	},
+	"detectRetina": true,
+	"fpsLimit": 120,
+	"interactivity": {
+		"events": {
+			"onDiv": [
+				{
+					"enable": true,
+					"selectors": "main",
+					"mode": "bounce",
+					"type": "rectangle"
+				}
+			]
+		}
+	},
+	"particles": {
+		"color": { "value": "#8000ff" },
+		"size": { "value": 1 },
+		"number": { "value": 400 },
+		"move": {
+			"enable": true,
+			"direction": "none",
+			"outMode": "bounce",
+			"random": true,
+			"speed": 1.5
+		},
+		"collisions": {
+			"enable": true,
+			"mode": "bounce"
+		},
+		"lineLinked": {
+			"enable": true,
+			"color": "#8000ff",
+			"distance": 50,
+			"opacity": 0.4,
+			"triangles": { "enable": true }
+		}
+	}
+}

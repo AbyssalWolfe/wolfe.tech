@@ -1,0 +1,38 @@
+:root {
+	--f-size: 15;
+	--f-unit: 1vmin;
+	--f: calc(var(--f-size) * var(--f-unit));
+	--bg: #000000;
+	--fg: #8000ff;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-color: var(--bg);
+	color: var(--fg);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+main {
+	width: 20%;
+	height: 8%;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#hello-world {
+	font-size: 3em;
+	text-align: center;
+	margin: 0;
+}
