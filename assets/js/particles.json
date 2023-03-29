@@ -1,7 +1,4 @@
 {
-	"background": {
-		"color": "#000"
-	},
 	"detectRetina": true,
 	"fpsLimit": 120,
 	"interactivity": {
